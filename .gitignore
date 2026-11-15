@@ -1,0 +1,94 @@
+# ==========================================
+# Dependências do Node.js
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Variáveis de Ambiente e Segredos
+# ==========================================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Manter o exemplo de configuração versionado:
+!.env.example
+
+# ==========================================
+# Diretório de Build / Compilação (Sucrase/Babel)
+# ==========================================
+/dist/
+build/
+
+# ==========================================
+# Uploads / Arquivos Estáticos de Usuários
+# ==========================================
+# Ignora todo arquivo enviado para uploads/ e uploads/images/
+# mas preserva a estrutura de pastas através dos arquivos .gitkeep
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/images/
+/uploads/images/*
+!/uploads/images/.gitkeep
+
+# ==========================================
+# Logs e Processos
+# ==========================================
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# Cobertura de Testes
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# Caches de Ferramentas (ESLint, Prettier, etc.)
+# ==========================================
+.eslintcache
+.cache/
+
+# ==========================================
+# Bancos de Dados Locais e Dumps
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# ==========================================
+# Arquivos Temporários do Sistema Operacional
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# IDEs e Editores de Código
+# ==========================================
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
