@@ -15,8 +15,8 @@ import alunosRoutes from './routes/alunosRoutes'
 import fotoRoutes from './routes/fotoRoutes'
 
 const whiteList = [
-  'http://136.64.33.181',
-  'http://localhost:3000',
+  `http://${process.env.DATABASE_HOST}`,
+  `http://localhost:${process.env.PORT}`,
 ]
 
 const corsOptions = {
