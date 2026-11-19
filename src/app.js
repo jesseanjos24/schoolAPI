@@ -17,6 +17,7 @@ import fotoRoutes from './routes/fotoRoutes'
 const whiteList = [
   `${process.env.APP_URL}`,
   `http://localhost:${process.env.PORT}`,
+  `http://localhost:5173`,
 ]
 
 const corsOptions = {
