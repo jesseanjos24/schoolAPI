@@ -15,7 +15,7 @@ import alunosRoutes from './routes/alunosRoutes'
 import fotoRoutes from './routes/fotoRoutes'
 
 const whiteList = [
-  `http://${process.env.DATABASE_HOST}`,
+  `${process.env.APP_URL}`,
   `http://localhost:${process.env.PORT}`,
 ]
 
