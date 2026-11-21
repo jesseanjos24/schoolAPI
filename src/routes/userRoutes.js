@@ -11,7 +11,7 @@ const router = new Router();
 // não se aplica - NÃO DEVERIA EXISTIR
 
 // SE APLICA
-router.post('/', lgNss, UserControler.store);
+router.post('/', UserControler.store);
 router.put('/', lgNss,  UserControler.update);
 router.delete('/', lgNss,  UserControler.delete);
 
