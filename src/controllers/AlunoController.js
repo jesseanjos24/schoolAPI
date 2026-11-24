@@ -30,7 +30,7 @@ class AlunoController {
         order: [['id', 'DESC'], [Fotos, 'id', 'DESC']],
         include: {
           model: Fotos,
-          attributes: ['id', 'filename']
+          attributes: ['id', 'url', 'filename']
         },
       });
       if(!aluno) {
